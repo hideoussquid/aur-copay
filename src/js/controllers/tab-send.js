@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('tabSendController', function($scope, $rootScope, $log, $timeout, $ionicScrollDelegate, addressbookService, profileService, lodash, $state, walletService, incomingData, popupService, platformInfo, bwcError, gettextCatalog) {
+angular.module('copayApp.controllers').controller('tabSendController', function($scope, $rootScope, $log, $timeout, $ionicScrollDelegate, addressbookService, profileService, lodash, $state, walletService, incomingData, popupService, platformInfo, bwcError, gettextCatalog, externalLinkService) {
 
   var originalList;
   var CONTACTS_SHOW_LIMIT;
@@ -142,7 +142,7 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
           $log.error(err);
           // error updating the wallet. Probably a network error, do not show
           // the 'buy bitcoins' message.
-          
+
           $scope.hasFunds = true;
         } else if (status.availableBalanceSat > 0) {
           $scope.hasFunds = true;
@@ -182,5 +182,16 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
       $state.go('tabs.buyandsell.glidera');
     });
   };
+
+  $scope.openExternalLink = function() {
+    var url = 'http://aureus.cc';
+    var optIn = true;
+    var title = gettextCatalog.getString('Open GitHub Project');
+    var message = gettextCatalog.getString('You can see the latest developments and contribute to this open source app by visiting our project on GitHub.');
+    var okText = gettextCatalog.getString('Open GitHub');
+    var cancelText = gettextCatalog.getString('Go Back');
+    externalLinkService.open(url, optIn, title, message, okText, cancelText);
+  };
+
 
 });

@@ -18,11 +18,11 @@ from the default (0), use, for example:
 
 to import account 11.
 
-In case you have a multisignature wallet originally created from a hardware device, and you had loose access to the device, you will need to enter the 24 mnemonic backup (from the device) and a path like:
+In case you have a multisignature wallet originally created from a hardware device, and you have lost access to the device, you will need to enter the 24 mnemonic backup (from the device) and a path like:
 
 
   m/48'/0'/8'
 
 for a multisignature wallet, account 8.
 
-Finally, note that TREZOR use 1-based account numbers, so if your are trying for example to recover TREZOR multisig account #8, you should enter `m/48'/0'/7'`.
+Finally, note that TREZOR uses 1-based account numbers, so if your are trying for example to recover TREZOR multisig account #8, you should enter `m/48'/0'/7'`.

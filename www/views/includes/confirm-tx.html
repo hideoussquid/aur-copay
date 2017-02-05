@@ -1,11 +1,13 @@
 <div class="m20t">
   <label class="size-14 text-center">
-    <span translate>Send bitcoin</span>
+    <span translate>Send aureus</span>
   </label>
 </div>
 <div class="text-center">
   <div class="size-36">{{tx.amountStr}}</div>
+<!--
   <div class="size-12 label gray radius" ng-show="tx.alternativeAmountStr">{{tx.alternativeAmountStr}}</div>
+ -->
   <i class="db fi-arrow-down size-24 m10v"></i>
   <div class="payment-proposal-to" copy-to-clipboard="tx.toAddress">
     <i class="fi-bitcoin left m10l"></i>
@@ -18,7 +20,9 @@
     <div ng-show="!showPercentage" ng-click="showPercentage = true">
       <span translate>Fee</span> <span class="tl">({{feeLevel|translate}})</span>:
       <span class="text-bold">{{tx.feeStr}}</span>
+<!--
       <span class="label gray radius">{{feeAlternativeStr}}</span>
+ -->
     </div>
     <div ng-show="showPercentage" ng-click="showPercentage = false" translate>
       {{feeRateStr}} of the transaction

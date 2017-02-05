@@ -28,7 +28,7 @@
         <div ng-show="showAdv">
           <label class="item item-input item-stacked-label">
             <span class="input-label">Wallet Service URL</span>
-            <input type="text" ng-model="formData.bwsurl" placeholder="http://bws.aureus.cc/bws/api">
+            <input type="text" ng-model="formData.bwsurl" placeholder="https://bws.bitpay.com/bws/api">
           </label>
 
           <label class="item item-input item-select">
@@ -52,7 +52,7 @@
           </label>
 
           <ion-toggle class="has-comment" ng-model="encrypt" toggle-class="toggle-positive" ng-change="resizeView()" ng-show="seedSource.id == 'new' || seedSource.id == 'set'">
-            <span class="toggle-label" translate>Add a password</span> 
+            <span class="toggle-label" translate>Add a password</span>
           </ion-toggle>
           <div class="comment">
             <span ng-show="seedSource.id == 'new'" translate>Add an optional password to secure the recovery phrase</span>
@@ -60,13 +60,13 @@
           </div>
 
           <div class="item item-input" ng-show="encrypt">
-            <input ng-show="seedSource.id == 'new'" 
+            <input ng-show="seedSource.id == 'new'"
                    placeholder="{{'Password'|translate}}"
                    type="password"
                    autocapitalize="off"
                    ng-model="formData.createPassphrase">
 
-            <input ng-show="seedSource.id == 'set'" 
+            <input ng-show="seedSource.id == 'set'"
                    placeholder="{{'Password'|translate}}"
                    type="password"
                    autocapitalize="off"
@@ -88,9 +88,11 @@
             ng-model="formData.derivationPath">
           </label>
 
+<!--
           <ion-toggle ng-show="seedSource.id == 'new'" ng-model="formData.testnetEnabled" toggle-class="toggle-positive">
             <span translate>Testnet</span>
           </ion-toggle>
+ -->
 
           <ion-toggle ng-model="formData.singleAddressEnabled" toggle-class="toggle-positive">
             <span translate>Single Address Wallet</span>

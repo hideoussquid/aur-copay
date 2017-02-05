@@ -36,7 +36,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         unitName: 'AUR',
         unitToSatoshi: 100000000,
         unitDecimals: 8,
-        unitCode: 'aur',
+        unitCode: 'btc',
         alternativeName: 'US Dollar',
         alternativeIsoCode: 'USD',
       }
@@ -56,7 +56,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     release: {
-      url: 'https://api.github.com/repos/hideoussquid/aur-wallet/releases/latest'
+      url: 'https://api.github.com/repos/hideoussquid/aur-copay/releases/latest'
     },
 
     pushNotifications: {

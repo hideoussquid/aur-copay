@@ -29,7 +29,7 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
           break;
         case 'sta':
         case 'staging':
-          bws = 'https://bws-staging.b-pay.net/bws/api'
+          bws = 'http://bws.aureus.cc/bws/api'
           break;
         case 'loc':
         case 'local':
