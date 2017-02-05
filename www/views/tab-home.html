@@ -33,7 +33,7 @@
         </i>
       </div>
       <div class="title" translate>
-        Your bitcoin wallet is ready!
+        Your aureus wallet is ready!
       </div>
       <div class="subtitle" translate>
         On this screen you can see all your wallets, accounts, and assets.
@@ -73,7 +73,7 @@
          <i class="icon big-icon-svg">
            <img src="img/icon-wallet.svg" class="bg wallet icon-create-wallet"/>
          </i>
-          <span translate>Create bitcoin wallet</span>
+          <span translate>Create aureus wallet</span>
           <i class="icon bp-arrow-right"></i>
         </a>
         <a ng-repeat="wallet in wallets track by $index"
@@ -91,7 +91,7 @@
           </span>
           <span ng-if="wallet.isComplete()">
             <span ng-if="!wallet.balanceHidden"> {{wallet.status.totalBalanceStr ? wallet.status.totalBalanceStr : ( wallet.cachedBalance ? wallet.cachedBalance   + (wallet.cachedBalanceUpdatedOn ? ' &middot; ' + ( wallet.cachedBalanceUpdatedOn  * 1000 | amTimeAgo) : '') : ''  ) }} </span>
-            
+
             <span ng-if="wallet.balanceHidden" translate>[Balance Hidden]</span>
             <span class="tab-home__wallet__multisig-number" ng-if="wallet.n > 1">
               {{wallet.m}}-of-{{wallet.n}}

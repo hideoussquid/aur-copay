@@ -12,16 +12,16 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.bitpay.com/bws/api',
+      url: 'http://bws.aureus.cc/bws/api',
     },
 
     download: {
-      url: 'https://bitpay.com/wallet',
+      url: 'http://aureus.cc/wallet',
     },
 
     rateApp: {
-      ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1149581638&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-      android: 'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
+      ios: '',
+      android: '',
       wp: ''
     },
 
@@ -33,10 +33,10 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       reconnectDelay: 5000,
       idleDurationMin: 4,
       settings: {
-        unitName: 'BTC',
+        unitName: 'AUR',
         unitToSatoshi: 100000000,
         unitDecimals: 8,
-        unitCode: 'btc',
+        unitCode: 'aur',
         alternativeName: 'US Dollar',
         alternativeIsoCode: 'USD',
       }
@@ -48,7 +48,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     hideNextSteps: {
-      enabled: false,
+      enabled: true,
     },
 
     rates: {
@@ -56,11 +56,11 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     release: {
-      url: 'https://api.github.com/repos/bitpay/copay/releases/latest'
+      url: 'https://api.github.com/repos/hideoussquid/aur-wallet/releases/latest'
     },
 
     pushNotifications: {
-      enabled: true,
+      enabled: false,
       config: {
         android: {
           senderID: '1036948132229',
@@ -90,7 +90,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
   },
     {
       color: "#F38F12",
-      name: "Carrot Orange"
+      name: "Flaming Carrot Orange"
   },
     {
       color: "#FAA77F",

@@ -2,11 +2,14 @@
   <ion-content ng-controller="welcomeController" ng-init="createProfile()" scroll="false">
     <div id="logo-tagline">
         <img src='img/bitpay-logo.svg' id="logo" />
-        <p id="lead" translate>Take control of your money,<br />get started with bitcoin.</p>
+        <p id="lead" translate>Take control of your money,<br />get started with aureus.</p>
     </div>
     <div id="cta-buttons">
         <button class="button button-standard button-primary" id="get-started" href ui-sref="onboarding.tour" translate>Get started</button>
+        <br>
+<!--
         <button class="button button-standard button-secondary button-clear" id="restore" translate href ui-sref="onboarding.import({'fromOnboarding':true})">Restore from backup</button>
+ -->
     </div>
   </ion-content>
 </ion-view>

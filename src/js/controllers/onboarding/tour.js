@@ -4,7 +4,8 @@ angular.module('copayApp.controllers').controller('tourController',
 
     var isCordova = platformInfo.isCordova;
     var isWP = platformInfo.isWP;
-    var usePushNotifications = isCordova && !isWP;
+//     var usePushNotifications = isCordova && !isWP;
+    var usePushNotifications = false;
 
     $scope.data = {
       index: 0
