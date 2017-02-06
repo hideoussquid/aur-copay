@@ -47,8 +47,8 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
     }
 
     // data extensions for Payment Protocol with non-backwards-compatible request
-    if ((/^bitcoin:\?r=[\w+]/).exec(data)) {
-      data = decodeURIComponent(data.replace('bitcoin:?r=', ''));
+    if ((/^aureus:\?r=[\w+]/).exec(data)) {
+      data = decodeURIComponent(data.replace('aureus:?r=', ''));
       $state.go('tabs.send', {}, {
         'reload': true,
         'notify': $state.current.name == 'tabs.send' ? false : true
@@ -126,7 +126,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
         url: data
       });
     } else if (data && data.indexOf(appConfigService.name + '://coinbase') === 0) {
-      var code = getParameterByName('code', data); 
+      var code = getParameterByName('code', data);
       $ionicHistory.nextViewOptions({
         disableAnimate: true
       });

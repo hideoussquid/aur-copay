@@ -53,7 +53,7 @@
         </div>
         <div class="row qr">
           <div class="text-center col center-block" copy-to-clipboard="addr" ng-repeat="wallet in wallets track by $index" ng-class="walletPosition($index)">
-            <qrcode ng-if="walletAddrs[wallet.id]" size="220" data="bitcoin:{{walletAddrs[wallet.id]}}" color="#334"></qrcode>
+            <qrcode ng-if="walletAddrs[wallet.id]" size="220" data="aureus:{{walletAddrs[wallet.id]}}" color="#334"></qrcode>
           </div>
         </div>
         <div id="qr-options" class="row text-center">
