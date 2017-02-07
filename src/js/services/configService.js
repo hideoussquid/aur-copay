@@ -16,12 +16,12 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     download: {
-      url: 'http://aureus.cc/wallet',
+      url: 'https://play.google.com/store/apps/details?id=cc.aureus.wallet',
     },
 
     rateApp: {
       ios: '',
-      android: '',
+      android: 'https://play.google.com/store/apps/details?id=cc.aureus.wallet',
       wp: ''
     },
 
