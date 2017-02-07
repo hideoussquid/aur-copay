@@ -15,7 +15,7 @@ angular.element(document).ready(function() {
         url: url
       });
     } else {
-      console.log("ERROR: Cannont handle open URL in non-cordova apps")
+      console.log("ERROR: Cannot handle open URL in non-cordova apps")
     }
   };
 
