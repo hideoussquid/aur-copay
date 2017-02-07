@@ -4,7 +4,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: copay\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Crowdin-Project: copay\n"
 "X-Crowdin-Language: cs\n"
 "X-Crowdin-File: template.pot\n"
@@ -12,10 +12,11 @@ msgstr ""
 "Last-Translator: cmgustavo83\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
-"PO-Revision-Date: 2016-07-14 14:39-0400\n"
+"PO-Revision-Date: 2017-02-07 00:28+0800\n"
+"POT-Creation-Date: \n"
+"MIME-Version: 1.0\n"
 
-#: www/views/modals/search.html
-#: www/views/walletHome.html
+#: www/views/modals/search.html www/views/walletHome.html
 msgid "(possible double spend)"
 msgstr "(pravděpodobná dvojitá platba)"
 
@@ -35,8 +36,7 @@ msgstr "{{fee}} bude odečteno jako poplatek bitcoinové síti"
 msgid "{{feeRateStr}} of the transaction"
 msgstr "{{feeRateStr}} z transakce"
 
-#: www/views/copayers.html
-#: www/views/includes/walletInfo.html
+#: www/views/copayers.html www/views/includes/walletInfo.html
 msgid "{{index.m}}-of-{{index.n}}"
 msgstr "{{index.m}} z {{index.n}}"
 
@@ -80,10 +80,8 @@ msgstr "A vícepodpisová bitcoin peněženka"
 msgid "About Copay"
 msgstr "O Copay"
 
-#: www/views/modals/txp-details.html
-#: src/js/services/confirmDialog.js
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
+#: www/views/modals/txp-details.html src/js/services/confirmDialog.js
+#: src/js/controllers/copayers.js src/js/controllers/preferencesDelete.js
 #: src/js/controllers/walletHome.js
 msgid "Accept"
 msgstr "Přijmout"
@@ -92,14 +90,11 @@ msgstr "Přijmout"
 msgid "Account"
 msgstr "Účet"
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 msgid "Account Number"
 msgstr "Číslo účtu"
 
-#: www/views/walletHome.html
-#: src/js/controllers/index.js
+#: www/views/walletHome.html src/js/controllers/index.js
 msgid "Activity"
 msgstr "Aktivita"
 
@@ -107,18 +102,15 @@ msgstr "Aktivita"
 msgid "Add a new entry"
 msgstr "Přidat nový záznam"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "Add a Password"
 msgstr ""
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "Add an optional password to secure the recovery phrase"
 msgstr ""
 
-#: www/views/includes/note.html
-#: www/views/modals/tx-details.html
+#: www/views/includes/note.html www/views/modals/tx-details.html
 msgid "Add comment"
 msgstr ""
 
@@ -126,10 +118,8 @@ msgstr ""
 msgid "Add wallet"
 msgstr "Přidat peněženku"
 
-#: www/views/modals/addressbook.html
-#: www/views/modals/customized-amount.html
-#: www/views/modals/paypro.html
-#: www/views/paymentUri.html
+#: www/views/modals/addressbook.html www/views/modals/customized-amount.html
+#: www/views/modals/paypro.html www/views/paymentUri.html
 msgid "Address"
 msgstr "Adresa"
 
@@ -149,8 +139,7 @@ msgstr "Název"
 msgid "Alias for <i>{{index.walletName}}</i>"
 msgstr "Název pro <i>{{index.walletName}}</i>"
 
-#: www/views/preferencesLanguage.html
-#: www/views/translators.html
+#: www/views/preferencesLanguage.html www/views/translators.html
 msgid "All contributions to Copay's translation are welcome. Sign up at crowdin.com and join the Copay project at"
 msgstr "Všichni spoluúčastníci překladů Copay jsou vítání. Přihlaště se na crowdin.com a přidejte se k projektu Copay na"
 
@@ -162,10 +151,8 @@ msgstr "Všechny žádosti o platbu jsou nevratné."
 msgid "Alternative Currency"
 msgstr "Alternativní měna"
 
-#: www/views/includes/output.html
-#: www/views/modals/customized-amount.html
-#: www/views/paymentUri.html
-#: www/views/walletHome.html
+#: www/views/includes/output.html www/views/modals/customized-amount.html
+#: www/views/paymentUri.html www/views/walletHome.html
 msgid "Amount"
 msgstr "Částka"
 
@@ -173,8 +160,7 @@ msgstr "Částka"
 msgid "Amount below minimum allowed"
 msgstr ""
 
-#: www/views/modals/customized-amount.html
-#: www/views/walletHome.html
+#: www/views/modals/customized-amount.html www/views/walletHome.html
 msgid "Amount in"
 msgstr "Částka v"
 
@@ -182,8 +168,7 @@ msgstr "Částka v"
 msgid "Are you sure you want to delete the recovery phrase?"
 msgstr ""
 
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
+#: src/js/controllers/copayers.js src/js/controllers/preferencesDelete.js
 msgid "Are you sure you want to delete this wallet?"
 msgstr "Opravdu si přejete odstranit tuto peněženku?"
 
@@ -211,8 +196,7 @@ msgstr "Záloha"
 msgid "Backup failed"
 msgstr "Chyba zálohování"
 
-#: www/views/paperWallet.html
-#: www/views/walletHome.html
+#: www/views/paperWallet.html www/views/walletHome.html
 msgid "Backup Needed"
 msgstr "Vyžadována záloha"
 
@@ -228,8 +212,7 @@ msgstr "Chybný požadavek do peněženky"
 msgid "Balance By Address"
 msgstr "Zůstatek adres"
 
-#: www/views/paperWallet.html
-#: www/views/walletHome.html
+#: www/views/paperWallet.html www/views/walletHome.html
 msgid "Before receiving funds, you must backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
 msgstr ""
 
@@ -237,9 +220,7 @@ msgstr ""
 msgid "BETA: Android Key Derivation Test:"
 msgstr ""
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 msgid "BIP32 path for address derivation"
 msgstr "BIP32 cesta pro derivaci adres"
 
@@ -279,16 +260,11 @@ msgstr ""
 msgid "Calculating fee"
 msgstr "Vypočítávám poplatek"
 
-#: www/views/includes/confirm-tx.html
-#: www/views/includes/note.html
-#: www/views/includes/password.html
-#: www/views/modals/addressbook.html
-#: www/views/modals/confirmation.html
-#: www/views/walletHome.html
-#: src/js/services/confirmDialog.js
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
-#: src/js/controllers/walletHome.js
+#: www/views/includes/confirm-tx.html www/views/includes/note.html
+#: www/views/includes/password.html www/views/modals/addressbook.html
+#: www/views/modals/confirmation.html www/views/walletHome.html
+#: src/js/services/confirmDialog.js src/js/controllers/copayers.js
+#: src/js/controllers/preferencesDelete.js src/js/controllers/walletHome.js
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -328,14 +304,10 @@ msgstr "Vyberte zálohu z PC"
 msgid "Clear cache"
 msgstr "Vymazat cache"
 
-#: www/views/includes/topbar.html
-#: www/views/modals/addressbook.html
-#: www/views/modals/customized-amount.html
-#: www/views/modals/paypro.html
-#: www/views/modals/scanner.html
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/includes/topbar.html www/views/modals/addressbook.html
+#: www/views/modals/customized-amount.html www/views/modals/paypro.html
+#: www/views/modals/scanner.html www/views/modals/search.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 msgid "Close"
 msgstr "Zavřít"
 
@@ -351,10 +323,8 @@ msgstr ""
 msgid "Commit hash"
 msgstr "Hash softwaru"
 
-#: www/views/includes/confirm-tx.html
-#: src/js/services/confirmDialog.js
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
+#: www/views/includes/confirm-tx.html src/js/services/confirmDialog.js
+#: src/js/controllers/copayers.js src/js/controllers/preferencesDelete.js
 #: src/js/controllers/walletHome.js
 msgid "Confirm"
 msgstr "Potvrdit"
@@ -403,8 +373,7 @@ msgstr "Data spoluplátce nesouhlasí"
 msgid "Copayers"
 msgstr "Spoluplátci"
 
-#: src/js/controllers/copayers.js
-#: src/js/controllers/export.js
+#: src/js/controllers/copayers.js src/js/controllers/export.js
 #: src/js/controllers/preferencesInformation.js
 #: src/js/controllers/walletHome.js
 msgid "Copied to clipboard"
@@ -510,8 +479,7 @@ msgstr "Vytvořit"
 msgid "Create {{requiredCopayers}}-of-{{totalCopayers}} wallet"
 msgstr "Vytvořit peněženku {{requiredCopayers}}-z-{{totalCopayers}}"
 
-#: www/views/add.html
-#: www/views/create.html
+#: www/views/add.html www/views/create.html
 msgid "Create new wallet"
 msgstr "Vytvořit novou peněženku"
 
@@ -575,9 +543,7 @@ msgstr "Odstranit peněženku"
 msgid "Deleting Wallet..."
 msgstr "Mažu peněženku..."
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 msgid "Derivation Path"
 msgstr "Cesta derivace"
 
@@ -585,18 +551,15 @@ msgstr "Cesta derivace"
 msgid "Derivation Strategy"
 msgstr "Způsob derivace"
 
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 #: www/views/walletHome.html
 msgid "Description"
 msgstr ""
 
 #: www/views/modals/coinbase-tx-details.html
 #: www/views/modals/customized-amount.html
-#: www/views/modals/glidera-tx-details.html
-#: www/views/modals/paypro.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/glidera-tx-details.html www/views/modals/paypro.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 msgid "Details"
 msgstr "Detail"
 
@@ -608,8 +571,7 @@ msgstr "Nedostupné"
 msgid "Do not include private key"
 msgstr "Nevyplňujte soukromý klíč"
 
-#: www/views/preferencesLanguage.html
-#: www/views/translators.html
+#: www/views/preferencesLanguage.html www/views/translators.html
 msgid "Don't see your language on Crowdin? Contact the Owner on Crowdin! We'd love to support your language."
 msgstr "Nevidíte na Crowdin váš jazyk? Kontaktujte správce repozitáře na Crowdin. Rádi váš jazyk přidáme."
 
@@ -629,8 +591,7 @@ msgstr "Ekonomický"
 msgid "Edit"
 msgstr "Upravit"
 
-#: www/views/includes/note.html
-#: www/views/modals/tx-details.html
+#: www/views/includes/note.html www/views/modals/tx-details.html
 msgid "Edit comment"
 msgstr ""
 
@@ -666,8 +627,7 @@ msgstr "Povolit notifikace"
 msgid "Encrypted export file saved"
 msgstr "Šifrovaný soubor byl vytvořen"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "Enter the recovery phrase (BIP39)"
 msgstr ""
 
@@ -691,8 +651,7 @@ msgstr "Chyba vytváření peněženky"
 msgid "Expired"
 msgstr "Vyprošelo"
 
-#: www/views/modals/paypro.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/paypro.html www/views/modals/txp-details.html
 msgid "Expires"
 msgstr "Vyprší"
 
@@ -732,8 +691,7 @@ msgstr "Chyba ověření zálohy. Zkontrolujte zadané informace"
 msgid "Family vacation funds"
 msgstr "Úspory rodiny na dovolenou"
 
-#: www/views/includes/confirm-tx.html
-#: www/views/modals/tx-details.html
+#: www/views/includes/confirm-tx.html www/views/modals/tx-details.html
 #: www/views/modals/txp-details.html
 msgid "Fee"
 msgstr "Poplatek"
@@ -742,8 +700,7 @@ msgstr "Poplatek"
 msgid "Fetching Payment Information"
 msgstr "Stahuji platební údaje"
 
-#: www/views/export.html
-#: www/views/import.html
+#: www/views/export.html www/views/import.html
 msgid "File/Text"
 msgstr ""
 
@@ -815,9 +772,7 @@ msgstr "Hardware peněženka"
 msgid "Hardware Wallet"
 msgstr "Hardwarová peněženka"
 
-#: www/views/create.html
-#: www/views/export.html
-#: www/views/import.html
+#: www/views/create.html www/views/export.html www/views/import.html
 #: www/views/join.html
 msgid "Hide advanced options"
 msgstr "Skrýt rozšířená nastavení"
@@ -871,13 +826,11 @@ msgstr "Nedostatečná částka"
 msgid "Insufficient funds for fee"
 msgstr "Nedostatečný zůstatek pro poplatek"
 
-#: www/views/modals/search.html
-#: www/views/walletHome.html
+#: www/views/modals/search.html www/views/walletHome.html
 msgid "Invalid"
 msgstr "Neplatné"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/import.js
+#: src/js/controllers/create.js src/js/controllers/import.js
 #: src/js/controllers/join.js
 msgid "Invalid account number"
 msgstr "Neplatné číslo účtu"
@@ -886,8 +839,7 @@ msgstr "Neplatné číslo účtu"
 msgid "Invalid address"
 msgstr "Neplatná adresa"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/import.js
+#: src/js/controllers/create.js src/js/controllers/import.js
 #: src/js/controllers/join.js
 msgid "Invalid derivation path"
 msgstr "Neplatná cesta derivace"
@@ -904,8 +856,7 @@ msgstr ""
 msgid "Japanese"
 msgstr "Japonština"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "John"
 msgstr "John"
 
@@ -973,10 +924,8 @@ msgstr "Shody:"
 msgid "me"
 msgstr "já"
 
-#: www/views/includes/copayers.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
-#: www/views/preferencesInformation.html
+#: www/views/includes/copayers.html www/views/modals/tx-details.html
+#: www/views/modals/txp-details.html www/views/preferencesInformation.html
 msgid "Me"
 msgstr "Já"
 
@@ -1000,14 +949,12 @@ msgstr ""
 msgid "Missing private keys to sign"
 msgstr "Chybějící soukromý klíč pro podpis"
 
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
+#: www/views/modals/search.html www/views/modals/tx-details.html
 #: www/views/walletHome.html
 msgid "Moved"
 msgstr "Přesunuto"
 
-#: www/views/includes/confirm-tx.html
-#: www/views/modals/txp-details.html
+#: www/views/includes/confirm-tx.html www/views/modals/txp-details.html
 msgid "Multiple recipients"
 msgstr "Více příjemců"
 
@@ -1039,8 +986,7 @@ msgstr "Chyba síťového spojení"
 msgid "New Payment Proposal"
 msgstr "Nový návrh platby"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/join.js
+#: src/js/controllers/create.js src/js/controllers/join.js
 msgid "New Random Recovery Phrase"
 msgstr ""
 
@@ -1068,8 +1014,7 @@ msgstr "Nedokončeno"
 msgid "Not enough funds for fee"
 msgstr ""
 
-#: www/views/modals/addressbook.html
-#: www/views/modals/customized-amount.html
+#: www/views/modals/addressbook.html www/views/modals/customized-amount.html
 #: www/views/walletHome.html
 msgid "Not valid"
 msgstr "Neplatné"
@@ -1090,8 +1035,7 @@ msgstr "Pozn.: bylo vyloučeno celkem {{amountBelowFeeStr}}. Tyto prostředky po
 msgid "NOTE: To import a wallet from a 3rd party software, please go to Add Wallet &gt; Create Wallet, and specify the Recovery Phrase there."
 msgstr ""
 
-#: www/views/disclaimer.html
-#: www/views/termOfUse.html
+#: www/views/disclaimer.html www/views/termOfUse.html
 msgid "Official English Disclaimer"
 msgstr "Oficiální Disclaimer v Angličtině"
 
@@ -1119,8 +1063,7 @@ msgstr "nepovinný"
 msgid "Paper Wallet Private Key"
 msgstr "Soukromý klíč papírové peněženky"
 
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 msgid "Participants"
 msgstr "Účastníci"
 
@@ -1128,9 +1071,7 @@ msgstr "Účastníci"
 msgid "Passphrase"
 msgstr "Heslo"
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 #: www/views/paperWallet.html
 msgid "Password"
 msgstr "Heslo"
@@ -1211,8 +1152,7 @@ msgstr "Neplatný platební protokol"
 msgid "Payment Protocol not supported on Chrome App"
 msgstr "Chrome App nepodporuje Platební protokol"
 
-#: www/views/modals/tx-status.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/tx-status.html www/views/modals/txp-details.html
 msgid "Payment Rejected"
 msgstr "Platba odmítnuta"
 
@@ -1220,8 +1160,7 @@ msgstr "Platba odmítnuta"
 msgid "Payment request"
 msgstr "Žádost platby"
 
-#: www/views/modals/txp-details.html
-#: src/js/services/notificationsService.js
+#: www/views/modals/txp-details.html src/js/services/notificationsService.js
 msgid "Payment Sent"
 msgstr "Platba odeslána"
 
@@ -1237,8 +1176,7 @@ msgstr "Vyčkávající potvrzení"
 msgid "Permanently delete this wallet. THIS ACTION CANNOT BE REVERSED"
 msgstr "Trvalé odstraněné této peněženky. NELZE VRÁTIT ZPĚT"
 
-#: www/views/create.html
-#: src/js/services/profileService.js
+#: www/views/create.html src/js/services/profileService.js
 msgid "Personal Wallet"
 msgstr "Osobní peněženka"
 
@@ -1246,13 +1184,11 @@ msgstr "Osobní peněženka"
 msgid "Please enter the recovery phrase"
 msgstr ""
 
-#: src/js/controllers/create.js
-#: src/js/controllers/join.js
+#: src/js/controllers/create.js src/js/controllers/join.js
 msgid "Please enter the required fields"
 msgstr "Vyplňte požadovaná pole"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/join.js
+#: src/js/controllers/create.js src/js/controllers/join.js
 msgid "Please enter the wallet recovery phrase"
 msgstr ""
 
@@ -1304,8 +1240,7 @@ msgstr "Soukromý klíč je šifrovaný, nelze podepsat"
 msgid "Push notifications for Copay are currently disabled. Enable them in the Settings app."
 msgstr "Oznámení pro Copay jsou v současné době zakázána. Povolte v nastavení aplikace."
 
-#: www/views/export.html
-#: www/views/modals/customized-amount.html
+#: www/views/export.html www/views/modals/customized-amount.html
 msgid "QR Code"
 msgstr "QR kód"
 
@@ -1317,14 +1252,12 @@ msgstr "QR čtečka"
 msgid "Receive"
 msgstr "Přijmout"
 
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
+#: www/views/modals/search.html www/views/modals/tx-details.html
 #: www/views/walletHome.html
 msgid "Received"
 msgstr "Přijato"
 
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 msgid "Recipients"
 msgstr "Příjemci"
 
@@ -1368,8 +1301,7 @@ msgstr ""
 msgid "Repeat the spending password"
 msgstr ""
 
-#: www/views/modals/customized-amount.html
-#: www/views/walletHome.html
+#: www/views/modals/customized-amount.html www/views/walletHome.html
 msgid "Request a specific amount"
 msgstr "Vyžádat konkrétní částku"
 
@@ -1393,10 +1325,8 @@ msgstr "Načítání informací vstupů"
 msgid "Russian"
 msgstr "Ruština"
 
-#: www/views/includes/note.html
-#: www/views/modals/addressbook.html
-#: www/views/preferencesAlias.html
-#: www/views/preferencesBwsUrl.html
+#: www/views/includes/note.html www/views/modals/addressbook.html
+#: www/views/preferencesAlias.html www/views/preferencesBwsUrl.html
 #: www/views/preferencesEmail.html
 msgid "Save"
 msgstr "Uložit"
@@ -1457,8 +1387,7 @@ msgstr "Vybrat peněženku"
 msgid "Self-signed Certificate"
 msgstr "Vlastnoručně podepsaný certifikát"
 
-#: www/views/walletHome.html
-#: src/js/controllers/index.js
+#: www/views/walletHome.html src/js/controllers/index.js
 msgid "Send"
 msgstr "Odesláno"
 
@@ -1470,8 +1399,7 @@ msgstr "Odeslat adresy emailem"
 msgid "Send bitcoin"
 msgstr "Odeslat BTC"
 
-#: www/views/export.html
-#: www/views/preferencesLogs.html
+#: www/views/export.html www/views/preferencesLogs.html
 msgid "Send by email"
 msgstr "Odeslat emailem"
 
@@ -1487,10 +1415,8 @@ msgstr "Odesílám"
 msgid "Sending transaction"
 msgstr "Odesílání transakce"
 
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/tx-status.html
-#: www/views/walletHome.html
+#: www/views/modals/search.html www/views/modals/tx-details.html
+#: www/views/modals/tx-status.html www/views/walletHome.html
 msgid "Sent"
 msgstr "Odesláno"
 
@@ -1526,8 +1452,7 @@ msgstr "Nastavení emailových notifikací může snížit vaše soukromí, poku
 msgid "Settings"
 msgstr "Nastavení"
 
-#: www/views/modals/customized-amount.html
-#: www/views/walletHome.html
+#: www/views/modals/customized-amount.html www/views/walletHome.html
 msgid "Share address"
 msgstr "Sdílet adresu"
 
@@ -1547,14 +1472,11 @@ msgstr ""
 msgid "Share this wallet address to receive payments. To protect your privacy, new addresses are generated automatically once you use them."
 msgstr "Sdílet adresu této peněženky pro přijímání plateb. Pro ochranu soukromí po použití adresy je generována nová."
 
-#: www/views/create.html
-#: www/views/import.html
+#: www/views/create.html www/views/import.html
 msgid "Shared Wallet"
 msgstr "Sdílená peněženka"
 
-#: www/views/create.html
-#: www/views/export.html
-#: www/views/import.html
+#: www/views/create.html www/views/export.html www/views/import.html
 #: www/views/join.html
 msgid "Show advanced options"
 msgstr "Zobrazit rozšířená nastavení"
@@ -1575,8 +1497,7 @@ msgstr ""
 msgid "Spanish"
 msgstr "Španělština"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/join.js
+#: src/js/controllers/create.js src/js/controllers/join.js
 msgid "Specify Recovery Phrase..."
 msgstr ""
 
@@ -1596,10 +1517,8 @@ msgstr ""
 msgid "Spending Passwords do not match"
 msgstr ""
 
-#: src/js/controllers/copayers.js
-#: src/js/controllers/export.js
-#: src/js/controllers/import.js
-#: src/js/controllers/preferencesDelete.js
+#: src/js/controllers/copayers.js src/js/controllers/export.js
+#: src/js/controllers/import.js src/js/controllers/preferencesDelete.js
 msgid "Success"
 msgstr "Úspěšné"
 
@@ -1627,8 +1546,7 @@ msgstr ""
 msgid "Tap to retry"
 msgstr "Klikněte pro zopakování pokusu"
 
-#: www/views/disclaimer.html
-#: www/views/preferencesAbout.html
+#: www/views/disclaimer.html www/views/preferencesAbout.html
 msgid "Terms of Use"
 msgstr "Podmínky používání"
 
@@ -1656,8 +1574,7 @@ msgstr "Platba byla vytvořena ale nemohla být dokončena. Opakujte akci z domo
 msgid "The payment was removed by creator"
 msgstr "Platba byla odstraněna tvůrcem"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "The recovery phrase could require a password to be imported"
 msgstr ""
 
@@ -1677,8 +1594,7 @@ msgstr "Software který hodláte začít používat je zdarma, open-source, víc
 msgid "The spend proposal is not pending"
 msgstr "Platební návrh neočekává další schválení"
 
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
+#: src/js/controllers/copayers.js src/js/controllers/preferencesDelete.js
 msgid "The wallet \"{{walletName}}\" was deleted"
 msgstr "Peněženka \"{{walletName}}\" byla odstraněna"
 
@@ -1718,10 +1634,8 @@ msgstr "Tato peněženka není registrována na Bitcore Wallet Service (BWS). M�
 msgid "Time"
 msgstr "Čas"
 
-#: www/views/includes/output.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
-#: www/views/walletHome.html
+#: www/views/includes/output.html www/views/modals/tx-details.html
+#: www/views/modals/txp-details.html www/views/walletHome.html
 msgid "To"
 msgstr "Komu"
 
@@ -1777,8 +1691,7 @@ msgstr "Zkusit znovu"
 msgid "Type the Recovery Phrase (usually 12 words)"
 msgstr ""
 
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
+#: www/views/modals/search.html www/views/modals/tx-details.html
 #: www/views/walletHome.html
 msgid "Unconfirmed"
 msgstr "Nepotvrzené"
@@ -1859,8 +1772,7 @@ msgstr "Id peněženky"
 msgid "Wallet incomplete and broken"
 msgstr "Peněženka je neúplná a chybná"
 
-#: www/views/preferencesAdvanced.html
-#: www/views/preferencesInformation.html
+#: www/views/preferencesAdvanced.html www/views/preferencesInformation.html
 msgid "Wallet Information"
 msgstr "Údaje peněženky"
 
@@ -1912,9 +1824,7 @@ msgstr ""
 msgid "Wallet Preferences"
 msgstr ""
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 msgid "Wallet Recovery Phrase"
 msgstr ""
 
@@ -1922,8 +1832,7 @@ msgstr ""
 msgid "Wallet Recovery Phrase is invalid"
 msgstr ""
 
-#: www/views/backup.html
-#: www/views/preferencesDeleteWords.html
+#: www/views/backup.html www/views/preferencesDeleteWords.html
 msgid "Wallet recovery phrase not available. You can still export it from Advanced &gt; Export."
 msgstr ""
 
@@ -1939,8 +1848,7 @@ msgstr ""
 msgid "WARNING: Not including the private key allows to check the wallet balance, transaction history, and create spend proposals from the export. However, does not allow to approve (sign) proposals, so <b>funds will not be accessible from the export</b>."
 msgstr "VAROVÁNÍ: Bez vložení soukromého klíče je možná kontrola zůstatků peněženek, historie transakcí a vytváření návrhů plateb z exportu. Nicméně, tyto údaje neumožňují (podepsat) návrhy plateb, tudíž <b>zůstatky nebudou z exportů ovladatelné<b>."
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "WARNING: The password cannot be recovered. <b>Be sure to write it down</b>. The wallet can not be restored without the password."
 msgstr ""
 
@@ -1960,8 +1868,7 @@ msgstr "VAROVÁNÍ: NEDŮVĚRYHODNÝ CERTIFIKÁT"
 msgid "WARNING: Wallet not registered"
 msgstr "VÁROVÁNÍ: Neregistrovaná peněženka"
 
-#: www/views/preferencesDeleteWallet.html
-#: www/views/preferencesDeleteWords.html
+#: www/views/preferencesDeleteWallet.html www/views/preferencesDeleteWords.html
 msgid "Warning!"
 msgstr "Varování!"
 
@@ -2021,13 +1928,11 @@ msgstr ""
 msgid "You need the wallet recovery phrase to restore this personal wallet. Write it down and keep them somewhere safe."
 msgstr ""
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "Your nickname"
 msgstr "Vaše přezdívka"
 
-#: www/views/export.html
-#: www/views/import.html
+#: www/views/export.html www/views/import.html
 msgid "Your password"
 msgstr "Vaše heslo"
 
@@ -2046,4 +1951,3 @@ msgstr ""
 #: www/views/backup.html
 msgid "Your wallet recovery phrase and access to the server that coordinated the initial wallet creation. You still need {{index.m}} keys to spend."
 msgstr ""
-

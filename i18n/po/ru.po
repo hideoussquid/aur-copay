@@ -4,7 +4,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: copay\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Crowdin-Project: copay\n"
 "X-Crowdin-Language: ru\n"
 "X-Crowdin-File: template.pot\n"
@@ -12,10 +12,11 @@ msgstr ""
 "Last-Translator: cmgustavo83\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
-"PO-Revision-Date: 2016-07-14 14:39-0400\n"
+"PO-Revision-Date: 2017-02-07 00:28+0800\n"
+"POT-Creation-Date: \n"
+"MIME-Version: 1.0\n"
 
-#: www/views/modals/search.html
-#: www/views/walletHome.html
+#: www/views/modals/search.html www/views/walletHome.html
 msgid "(possible double spend)"
 msgstr "(возможна двойная трата)"
 
@@ -35,8 +36,7 @@ msgstr "{{fee}} будет использовано для оплаты коми
 msgid "{{feeRateStr}} of the transaction"
 msgstr "{{feeRateStr}} транзакции"
 
-#: www/views/copayers.html
-#: www/views/includes/walletInfo.html
+#: www/views/copayers.html www/views/includes/walletInfo.html
 msgid "{{index.m}}-of-{{index.n}}"
 msgstr "{{index.m}}-из-{{index.n}}"
 
@@ -80,10 +80,8 @@ msgstr "Биткойн-кошелёк с мультиподписью"
 msgid "About Copay"
 msgstr "О Copay"
 
-#: www/views/modals/txp-details.html
-#: src/js/services/confirmDialog.js
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
+#: www/views/modals/txp-details.html src/js/services/confirmDialog.js
+#: src/js/controllers/copayers.js src/js/controllers/preferencesDelete.js
 #: src/js/controllers/walletHome.js
 msgid "Accept"
 msgstr "Принять"
@@ -92,14 +90,11 @@ msgstr "Принять"
 msgid "Account"
 msgstr "Аккаунт"
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 msgid "Account Number"
 msgstr "Номер аккаунта"
 
-#: www/views/walletHome.html
-#: src/js/controllers/index.js
+#: www/views/walletHome.html src/js/controllers/index.js
 msgid "Activity"
 msgstr "Активность"
 
@@ -107,18 +102,15 @@ msgstr "Активность"
 msgid "Add a new entry"
 msgstr "Добавить новую запись"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "Add a Password"
 msgstr "Защитить паролем"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "Add an optional password to secure the recovery phrase"
 msgstr "Добавьте необязательный пароль для защиты ключевого словосочетания"
 
-#: www/views/includes/note.html
-#: www/views/modals/tx-details.html
+#: www/views/includes/note.html www/views/modals/tx-details.html
 msgid "Add comment"
 msgstr "Добавить комментарий"
 
@@ -126,10 +118,8 @@ msgstr "Добавить комментарий"
 msgid "Add wallet"
 msgstr "Добавить кошелёк"
 
-#: www/views/modals/addressbook.html
-#: www/views/modals/customized-amount.html
-#: www/views/modals/paypro.html
-#: www/views/paymentUri.html
+#: www/views/modals/addressbook.html www/views/modals/customized-amount.html
+#: www/views/modals/paypro.html www/views/paymentUri.html
 msgid "Address"
 msgstr "Адрес"
 
@@ -149,8 +139,7 @@ msgstr "Псевдоним"
 msgid "Alias for <i>{{index.walletName}}</i>"
 msgstr "Псевдоним для <i>{{index.walletName}}</i>"
 
-#: www/views/preferencesLanguage.html
-#: www/views/translators.html
+#: www/views/preferencesLanguage.html www/views/translators.html
 msgid "All contributions to Copay's translation are welcome. Sign up at crowdin.com and join the Copay project at"
 msgstr "Любой вклад в перевод Copay приветствуются. Регистрируйтесь на crowdin.com и присоединяйтесь к проекту Copay на"
 
@@ -162,10 +151,8 @@ msgstr "Все транзакции являются необратимыми."
 msgid "Alternative Currency"
 msgstr "Альтернативная валюта"
 
-#: www/views/includes/output.html
-#: www/views/modals/customized-amount.html
-#: www/views/paymentUri.html
-#: www/views/walletHome.html
+#: www/views/includes/output.html www/views/modals/customized-amount.html
+#: www/views/paymentUri.html www/views/walletHome.html
 msgid "Amount"
 msgstr "Сумма"
 
@@ -173,8 +160,7 @@ msgstr "Сумма"
 msgid "Amount below minimum allowed"
 msgstr "Сумма ниже допустимого минимума"
 
-#: www/views/modals/customized-amount.html
-#: www/views/walletHome.html
+#: www/views/modals/customized-amount.html www/views/walletHome.html
 msgid "Amount in"
 msgstr "Сумма в"
 
@@ -182,8 +168,7 @@ msgstr "Сумма в"
 msgid "Are you sure you want to delete the recovery phrase?"
 msgstr "Вы уверены, что хотите удалить ключевое словосочетание?"
 
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
+#: src/js/controllers/copayers.js src/js/controllers/preferencesDelete.js
 msgid "Are you sure you want to delete this wallet?"
 msgstr "Вы точно хотите удалить этот кошелек?"
 
@@ -211,8 +196,7 @@ msgstr "Резервное копирование"
 msgid "Backup failed"
 msgstr "Сбой резервного копирования"
 
-#: www/views/paperWallet.html
-#: www/views/walletHome.html
+#: www/views/paperWallet.html www/views/walletHome.html
 msgid "Backup Needed"
 msgstr "Требуется резервное копирование"
 
@@ -228,8 +212,7 @@ msgstr "Недействительное приглашение"
 msgid "Balance By Address"
 msgstr "Баланс на адресах"
 
-#: www/views/paperWallet.html
-#: www/views/walletHome.html
+#: www/views/paperWallet.html www/views/walletHome.html
 msgid "Before receiving funds, you must backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
 msgstr "Прежде чем получать переводы вы должны создать резервную копию кошелька. Если это устройство будет утеряно, вы не сможете получить доступ к вашим средствам без резервной копии."
 
@@ -237,9 +220,7 @@ msgstr "Прежде чем получать переводы вы должны 
 msgid "BETA: Android Key Derivation Test:"
 msgstr "БЕТА: Тест деривации ключей Android:"
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 msgid "BIP32 path for address derivation"
 msgstr "Укажите BIP32 для генерации адресов"
 
@@ -279,16 +260,11 @@ msgstr ""
 msgid "Calculating fee"
 msgstr "Вычисление комиссии"
 
-#: www/views/includes/confirm-tx.html
-#: www/views/includes/note.html
-#: www/views/includes/password.html
-#: www/views/modals/addressbook.html
-#: www/views/modals/confirmation.html
-#: www/views/walletHome.html
-#: src/js/services/confirmDialog.js
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
-#: src/js/controllers/walletHome.js
+#: www/views/includes/confirm-tx.html www/views/includes/note.html
+#: www/views/includes/password.html www/views/modals/addressbook.html
+#: www/views/modals/confirmation.html www/views/walletHome.html
+#: src/js/services/confirmDialog.js src/js/controllers/copayers.js
+#: src/js/controllers/preferencesDelete.js src/js/controllers/walletHome.js
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -328,14 +304,10 @@ msgstr "Выберите файл резервной копии"
 msgid "Clear cache"
 msgstr "Очистить кэш"
 
-#: www/views/includes/topbar.html
-#: www/views/modals/addressbook.html
-#: www/views/modals/customized-amount.html
-#: www/views/modals/paypro.html
-#: www/views/modals/scanner.html
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/includes/topbar.html www/views/modals/addressbook.html
+#: www/views/modals/customized-amount.html www/views/modals/paypro.html
+#: www/views/modals/scanner.html www/views/modals/search.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 msgid "Close"
 msgstr "Закрыть"
 
@@ -351,10 +323,8 @@ msgstr "Комментарий"
 msgid "Commit hash"
 msgstr "Хэш версии"
 
-#: www/views/includes/confirm-tx.html
-#: src/js/services/confirmDialog.js
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
+#: www/views/includes/confirm-tx.html src/js/services/confirmDialog.js
+#: src/js/controllers/copayers.js src/js/controllers/preferencesDelete.js
 #: src/js/controllers/walletHome.js
 msgid "Confirm"
 msgstr "Подтвердить"
@@ -403,8 +373,7 @@ msgstr "Несоответствие данных совладельца кош�
 msgid "Copayers"
 msgstr "Совладельцы кошелька"
 
-#: src/js/controllers/copayers.js
-#: src/js/controllers/export.js
+#: src/js/controllers/copayers.js src/js/controllers/export.js
 #: src/js/controllers/preferencesInformation.js
 #: src/js/controllers/walletHome.js
 msgid "Copied to clipboard"
@@ -510,8 +479,7 @@ msgstr "Создать"
 msgid "Create {{requiredCopayers}}-of-{{totalCopayers}} wallet"
 msgstr "Создать кошелёк {{requiredCopayers}}-из-{{totalCopayers}}"
 
-#: www/views/add.html
-#: www/views/create.html
+#: www/views/add.html www/views/create.html
 msgid "Create new wallet"
 msgstr "Создать новый кошелёк"
 
@@ -575,9 +543,7 @@ msgstr "Удалить кошелёк"
 msgid "Deleting Wallet..."
 msgstr "Удаление кошелька..."
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 msgid "Derivation Path"
 msgstr "Путь деривации"
 
@@ -585,18 +551,15 @@ msgstr "Путь деривации"
 msgid "Derivation Strategy"
 msgstr "Стратегия деривации"
 
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 #: www/views/walletHome.html
 msgid "Description"
 msgstr "Описание"
 
 #: www/views/modals/coinbase-tx-details.html
 #: www/views/modals/customized-amount.html
-#: www/views/modals/glidera-tx-details.html
-#: www/views/modals/paypro.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/glidera-tx-details.html www/views/modals/paypro.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 msgid "Details"
 msgstr "Подробности"
 
@@ -608,8 +571,7 @@ msgstr "Отключены"
 msgid "Do not include private key"
 msgstr "Не включать закрытый ключ"
 
-#: www/views/preferencesLanguage.html
-#: www/views/translators.html
+#: www/views/preferencesLanguage.html www/views/translators.html
 msgid "Don't see your language on Crowdin? Contact the Owner on Crowdin! We'd love to support your language."
 msgstr "Не видите свой язык на Crowdin? Свяжитесь с владельцем по Crowdin! Мы с удовольствием поддержим ваш язык."
 
@@ -629,8 +591,7 @@ msgstr "Экономичная"
 msgid "Edit"
 msgstr "Редактировать"
 
-#: www/views/includes/note.html
-#: www/views/modals/tx-details.html
+#: www/views/includes/note.html www/views/modals/tx-details.html
 msgid "Edit comment"
 msgstr "Отредактировать комментарий"
 
@@ -666,8 +627,7 @@ msgstr "Включить Push-уведомления"
 msgid "Encrypted export file saved"
 msgstr "Зашифрованная резервная копия сохранена"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "Enter the recovery phrase (BIP39)"
 msgstr "Введите ключевое словосочетание (BIP39)"
 
@@ -691,8 +651,7 @@ msgstr "Ошибка создания кошелька"
 msgid "Expired"
 msgstr "Истекла"
 
-#: www/views/modals/paypro.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/paypro.html www/views/modals/txp-details.html
 msgid "Expires"
 msgstr "Срок действия"
 
@@ -732,8 +691,7 @@ msgstr "Не удалось проверить резервную копию. П
 msgid "Family vacation funds"
 msgstr "Отпускной бюджет"
 
-#: www/views/includes/confirm-tx.html
-#: www/views/modals/tx-details.html
+#: www/views/includes/confirm-tx.html www/views/modals/tx-details.html
 #: www/views/modals/txp-details.html
 msgid "Fee"
 msgstr "Комиссия"
@@ -742,8 +700,7 @@ msgstr "Комиссия"
 msgid "Fetching Payment Information"
 msgstr "Извлечение информации о платеже"
 
-#: www/views/export.html
-#: www/views/import.html
+#: www/views/export.html www/views/import.html
 msgid "File/Text"
 msgstr "Файл/текст"
 
@@ -815,9 +772,7 @@ msgstr "Аппаратный кошелёк"
 msgid "Hardware Wallet"
 msgstr "Аппаратный кошелёк"
 
-#: www/views/create.html
-#: www/views/export.html
-#: www/views/import.html
+#: www/views/create.html www/views/export.html www/views/import.html
 #: www/views/join.html
 msgid "Hide advanced options"
 msgstr "Скрыть дополнительные настройки"
@@ -871,13 +826,11 @@ msgstr "Недостаточно средств"
 msgid "Insufficient funds for fee"
 msgstr "Недостаточно средств на комиссию"
 
-#: www/views/modals/search.html
-#: www/views/walletHome.html
+#: www/views/modals/search.html www/views/walletHome.html
 msgid "Invalid"
 msgstr "Недействительно"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/import.js
+#: src/js/controllers/create.js src/js/controllers/import.js
 #: src/js/controllers/join.js
 msgid "Invalid account number"
 msgstr "Недопустимый номер аккаунта"
@@ -886,8 +839,7 @@ msgstr "Недопустимый номер аккаунта"
 msgid "Invalid address"
 msgstr "Неверный адрес"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/import.js
+#: src/js/controllers/create.js src/js/controllers/import.js
 #: src/js/controllers/join.js
 msgid "Invalid derivation path"
 msgstr "Недействительный путь деривации"
@@ -904,8 +856,7 @@ msgstr "Итальянский"
 msgid "Japanese"
 msgstr "японский"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "John"
 msgstr "John"
 
@@ -973,10 +924,8 @@ msgstr "Совпадения:"
 msgid "me"
 msgstr "мне"
 
-#: www/views/includes/copayers.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
-#: www/views/preferencesInformation.html
+#: www/views/includes/copayers.html www/views/modals/tx-details.html
+#: www/views/modals/txp-details.html www/views/preferencesInformation.html
 msgid "Me"
 msgstr "Я"
 
@@ -1000,14 +949,12 @@ msgstr "Недостающий параметр"
 msgid "Missing private keys to sign"
 msgstr "Отсутствуют закрытые ключи для подписи"
 
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
+#: www/views/modals/search.html www/views/modals/tx-details.html
 #: www/views/walletHome.html
 msgid "Moved"
 msgstr "Перемещено"
 
-#: www/views/includes/confirm-tx.html
-#: www/views/modals/txp-details.html
+#: www/views/includes/confirm-tx.html www/views/modals/txp-details.html
 msgid "Multiple recipients"
 msgstr "Несколько получателей"
 
@@ -1039,8 +986,7 @@ msgstr "Ошибка подключения"
 msgid "New Payment Proposal"
 msgstr "Новое предложение платежа"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/join.js
+#: src/js/controllers/create.js src/js/controllers/join.js
 msgid "New Random Recovery Phrase"
 msgstr "Сгенерированное случайным образом ключевое словосочетание"
 
@@ -1068,8 +1014,7 @@ msgstr "Не завершено"
 msgid "Not enough funds for fee"
 msgstr "Недостаточно средств для уплаты комиссии"
 
-#: www/views/modals/addressbook.html
-#: www/views/modals/customized-amount.html
+#: www/views/modals/addressbook.html www/views/modals/customized-amount.html
 #: www/views/walletHome.html
 msgid "Not valid"
 msgstr "Недействительно"
@@ -1090,8 +1035,7 @@ msgstr "Примечание: в общей сложности {{amountBelowFeeS
 msgid "NOTE: To import a wallet from a 3rd party software, please go to Add Wallet &gt; Create Wallet, and specify the Recovery Phrase there."
 msgstr "Примечание: для импортирования кошелька из другой программы откройте \"Добавить кошелек\" &gt; \"Создать новый кошелек\", и укажите там ключевое словосочетание."
 
-#: www/views/disclaimer.html
-#: www/views/termOfUse.html
+#: www/views/disclaimer.html www/views/termOfUse.html
 msgid "Official English Disclaimer"
 msgstr "Официальный оригинал"
 
@@ -1119,8 +1063,7 @@ msgstr "необязательно"
 msgid "Paper Wallet Private Key"
 msgstr "Закрытый ключ бумажного кошелька"
 
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 msgid "Participants"
 msgstr "Участники"
 
@@ -1128,9 +1071,7 @@ msgstr "Участники"
 msgid "Passphrase"
 msgstr "Пароль импортируемого кошелька"
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 #: www/views/paperWallet.html
 msgid "Password"
 msgstr "Пароль"
@@ -1211,8 +1152,7 @@ msgstr "Недействительный протокол оплаты"
 msgid "Payment Protocol not supported on Chrome App"
 msgstr "Платёжный протокол не поддерживается в приложении Chrome"
 
-#: www/views/modals/tx-status.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/tx-status.html www/views/modals/txp-details.html
 msgid "Payment Rejected"
 msgstr "Платёж отклонён"
 
@@ -1220,8 +1160,7 @@ msgstr "Платёж отклонён"
 msgid "Payment request"
 msgstr "Запрос платежа"
 
-#: www/views/modals/txp-details.html
-#: src/js/services/notificationsService.js
+#: www/views/modals/txp-details.html src/js/services/notificationsService.js
 msgid "Payment Sent"
 msgstr "Платёж отправлен"
 
@@ -1237,8 +1176,7 @@ msgstr "Ожидание подтверждения"
 msgid "Permanently delete this wallet. THIS ACTION CANNOT BE REVERSED"
 msgstr "Окончательно удалить этот кошелёк. ЭТО ДЕЙСТВИЕ НЕ МОЖЕТ БЫТЬ ОТМЕНЕНО"
 
-#: www/views/create.html
-#: src/js/services/profileService.js
+#: www/views/create.html src/js/services/profileService.js
 msgid "Personal Wallet"
 msgstr "Личный кошелёк"
 
@@ -1246,13 +1184,11 @@ msgstr "Личный кошелёк"
 msgid "Please enter the recovery phrase"
 msgstr "Введите ключевое словосочетание"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/join.js
+#: src/js/controllers/create.js src/js/controllers/join.js
 msgid "Please enter the required fields"
 msgstr "Пожалуйста, заполните необходимые поля"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/join.js
+#: src/js/controllers/create.js src/js/controllers/join.js
 msgid "Please enter the wallet recovery phrase"
 msgstr "Введите ключевое словосочетание кошелька"
 
@@ -1304,8 +1240,7 @@ msgstr "Закрытый ключ зашифрован, не удалось по
 msgid "Push notifications for Copay are currently disabled. Enable them in the Settings app."
 msgstr "Push-уведомления для Copay в настоящее время отключены. Включите их в Параметрах."
 
-#: www/views/export.html
-#: www/views/modals/customized-amount.html
+#: www/views/export.html www/views/modals/customized-amount.html
 msgid "QR Code"
 msgstr "QR-код"
 
@@ -1317,14 +1252,12 @@ msgstr "QR-сканер"
 msgid "Receive"
 msgstr "Получить"
 
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
+#: www/views/modals/search.html www/views/modals/tx-details.html
 #: www/views/walletHome.html
 msgid "Received"
 msgstr "Получен"
 
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
+#: www/views/modals/tx-details.html www/views/modals/txp-details.html
 msgid "Recipients"
 msgstr "Получатели"
 
@@ -1368,8 +1301,7 @@ msgstr "Повторите пароль"
 msgid "Repeat the spending password"
 msgstr "Повторно введите платёжный пароль"
 
-#: www/views/modals/customized-amount.html
-#: www/views/walletHome.html
+#: www/views/modals/customized-amount.html www/views/walletHome.html
 msgid "Request a specific amount"
 msgstr "Запросить определенную сумму"
 
@@ -1393,10 +1325,8 @@ msgstr "Получение информации о входах"
 msgid "Russian"
 msgstr "русский"
 
-#: www/views/includes/note.html
-#: www/views/modals/addressbook.html
-#: www/views/preferencesAlias.html
-#: www/views/preferencesBwsUrl.html
+#: www/views/includes/note.html www/views/modals/addressbook.html
+#: www/views/preferencesAlias.html www/views/preferencesBwsUrl.html
 #: www/views/preferencesEmail.html
 msgid "Save"
 msgstr "Сохранить"
@@ -1457,8 +1387,7 @@ msgstr "Выберите кошелёк"
 msgid "Self-signed Certificate"
 msgstr "Самозаверенные сертификат"
 
-#: www/views/walletHome.html
-#: src/js/controllers/index.js
+#: www/views/walletHome.html src/js/controllers/index.js
 msgid "Send"
 msgstr "Отправить"
 
@@ -1470,8 +1399,7 @@ msgstr "Отправить адреса по email"
 msgid "Send bitcoin"
 msgstr "Отправить"
 
-#: www/views/export.html
-#: www/views/preferencesLogs.html
+#: www/views/export.html www/views/preferencesLogs.html
 msgid "Send by email"
 msgstr "Отправить на email"
 
@@ -1487,10 +1415,8 @@ msgstr "Отправка"
 msgid "Sending transaction"
 msgstr "Отправка транзакции"
 
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/tx-status.html
-#: www/views/walletHome.html
+#: www/views/modals/search.html www/views/modals/tx-details.html
+#: www/views/modals/tx-status.html www/views/walletHome.html
 msgid "Sent"
 msgstr "Отправлено"
 
@@ -1526,8 +1452,7 @@ msgstr "Включение email-уведомлений может ослаби�
 msgid "Settings"
 msgstr "Параметры"
 
-#: www/views/modals/customized-amount.html
-#: www/views/walletHome.html
+#: www/views/modals/customized-amount.html www/views/walletHome.html
 msgid "Share address"
 msgstr "Отправить адрес"
 
@@ -1547,14 +1472,11 @@ msgstr "Используйте этот адрес кошелька для по�
 msgid "Share this wallet address to receive payments. To protect your privacy, new addresses are generated automatically once you use them."
 msgstr "Используйте этот адрес для получения платежей. Для защиты вашей конфиденциальности, новые адреса создаются как только вы использовали старые."
 
-#: www/views/create.html
-#: www/views/import.html
+#: www/views/create.html www/views/import.html
 msgid "Shared Wallet"
 msgstr "Общий кошелёк"
 
-#: www/views/create.html
-#: www/views/export.html
-#: www/views/import.html
+#: www/views/create.html www/views/export.html www/views/import.html
 #: www/views/join.html
 msgid "Show advanced options"
 msgstr "Показать дополнительные настройки"
@@ -1575,8 +1497,7 @@ msgstr "Кошелек с одним адресом"
 msgid "Spanish"
 msgstr "испанский"
 
-#: src/js/controllers/create.js
-#: src/js/controllers/join.js
+#: src/js/controllers/create.js src/js/controllers/join.js
 msgid "Specify Recovery Phrase..."
 msgstr "Указать ключевое словосочетание..."
 
@@ -1596,10 +1517,8 @@ msgstr "Необходим платёжный пароль"
 msgid "Spending Passwords do not match"
 msgstr "Платёжные пароли не совпадают"
 
-#: src/js/controllers/copayers.js
-#: src/js/controllers/export.js
-#: src/js/controllers/import.js
-#: src/js/controllers/preferencesDelete.js
+#: src/js/controllers/copayers.js src/js/controllers/export.js
+#: src/js/controllers/import.js src/js/controllers/preferencesDelete.js
 msgid "Success"
 msgstr "Успешно"
 
@@ -1627,8 +1546,7 @@ msgstr "Коснитесь и удерживайте, чтобы показат�
 msgid "Tap to retry"
 msgstr "Повторить"
 
-#: www/views/disclaimer.html
-#: www/views/preferencesAbout.html
+#: www/views/disclaimer.html www/views/preferencesAbout.html
 msgid "Terms of Use"
 msgstr "Условия использования"
 
@@ -1656,8 +1574,7 @@ msgstr "Платёж был создан, но не может быть заве
 msgid "The payment was removed by creator"
 msgstr "Платёж был удалён его создателем"
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "The recovery phrase could require a password to be imported"
 msgstr "Для импортирования ключевого словосочетания может потребовать пароль"
 
@@ -1677,8 +1594,7 @@ msgstr "Программное обеспечение, которое вы на�
 msgid "The spend proposal is not pending"
 msgstr "Предложение платежа не в ожидании"
 
-#: src/js/controllers/copayers.js
-#: src/js/controllers/preferencesDelete.js
+#: src/js/controllers/copayers.js src/js/controllers/preferencesDelete.js
 msgid "The wallet \"{{walletName}}\" was deleted"
 msgstr "Кошелёк «{{walletName}}» был удален"
 
@@ -1718,10 +1634,8 @@ msgstr "Это кошелёк не зарегистрирован на данн�
 msgid "Time"
 msgstr "Время"
 
-#: www/views/includes/output.html
-#: www/views/modals/tx-details.html
-#: www/views/modals/txp-details.html
-#: www/views/walletHome.html
+#: www/views/includes/output.html www/views/modals/tx-details.html
+#: www/views/modals/txp-details.html www/views/walletHome.html
 msgid "To"
 msgstr "Кому"
 
@@ -1777,8 +1691,7 @@ msgstr "Попрoбуйте снова"
 msgid "Type the Recovery Phrase (usually 12 words)"
 msgstr "Введите ключевое словосочетание (обычно двенадцать слов)"
 
-#: www/views/modals/search.html
-#: www/views/modals/tx-details.html
+#: www/views/modals/search.html www/views/modals/tx-details.html
 #: www/views/walletHome.html
 msgid "Unconfirmed"
 msgstr "Неподтверждено"
@@ -1859,8 +1772,7 @@ msgstr "Идентификатор кошелька"
 msgid "Wallet incomplete and broken"
 msgstr "Сбой: кошелёк не работает"
 
-#: www/views/preferencesAdvanced.html
-#: www/views/preferencesInformation.html
+#: www/views/preferencesAdvanced.html www/views/preferencesInformation.html
 msgid "Wallet Information"
 msgstr "Информация о кошельке"
 
@@ -1912,9 +1824,7 @@ msgstr "Кошелёк не зарегистрирован на сервере B
 msgid "Wallet Preferences"
 msgstr "Параметры кошелька"
 
-#: www/views/create.html
-#: www/views/import.html
-#: www/views/join.html
+#: www/views/create.html www/views/import.html www/views/join.html
 msgid "Wallet Recovery Phrase"
 msgstr "Ключевое словосочетание кошелька"
 
@@ -1922,8 +1832,7 @@ msgstr "Ключевое словосочетание кошелька"
 msgid "Wallet Recovery Phrase is invalid"
 msgstr "Ключевое словосочетание кошелька недействительно"
 
-#: www/views/backup.html
-#: www/views/preferencesDeleteWords.html
+#: www/views/backup.html www/views/preferencesDeleteWords.html
 msgid "Wallet recovery phrase not available. You can still export it from Advanced &gt; Export."
 msgstr "Ключевое словосочетание недоступно. Вы все ещё можете экспортировать его в настройках кошелька \"Дополнительные возможности &gt; Экспорт кошелька\"."
 
@@ -1939,8 +1848,7 @@ msgstr "ВНИМАНИЕ: Деривация ключей не работает 
 msgid "WARNING: Not including the private key allows to check the wallet balance, transaction history, and create spend proposals from the export. However, does not allow to approve (sign) proposals, so <b>funds will not be accessible from the export</b>."
 msgstr "ВНИМАНИЕ: если экспортируемый файл не включает закрытый ключ, поэтому позволит только просматривать баланс, историю транзакций и предлагать платежи. Однако, его нельзя будет использовать для одобрения (подписания) предложенных платежей, поэтому <b>средства не будет доступны из экспортируемого файла</b>."
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "WARNING: The password cannot be recovered. <b>Be sure to write it down</b>. The wallet can not be restored without the password."
 msgstr "ВНИМАНИЕ: Пароль нельзя восстановить. <b>Убедитесь, что вы его записали</b>. Этот кошелёк нельзя будет восстановить без пароля."
 
@@ -1960,8 +1868,7 @@ msgstr "ВНИМАНИЕ: НЕНАДЕЖНЫЙ СЕРТИФИКАТ"
 msgid "WARNING: Wallet not registered"
 msgstr "ВНИМАНИЕ: Кошелёк не зарегистрирован"
 
-#: www/views/preferencesDeleteWallet.html
-#: www/views/preferencesDeleteWords.html
+#: www/views/preferencesDeleteWallet.html www/views/preferencesDeleteWords.html
 msgid "Warning!"
 msgstr "Внимание!"
 
@@ -2021,13 +1928,11 @@ msgstr "У вас нет кошельков"
 msgid "You need the wallet recovery phrase to restore this personal wallet. Write it down and keep them somewhere safe."
 msgstr "Для восстановления этого кошелька нужно ключевое словосочетание. Запишите его и надёжно спрячьте."
 
-#: www/views/create.html
-#: www/views/join.html
+#: www/views/create.html www/views/join.html
 msgid "Your nickname"
 msgstr "Ваше имя"
 
-#: www/views/export.html
-#: www/views/import.html
+#: www/views/export.html www/views/import.html
 msgid "Your password"
 msgstr "Ваш пароль"
 
@@ -2046,4 +1951,3 @@ msgstr "Ваш кошелёк будет зашифрован. Платёжны�
 #: www/views/backup.html
 msgid "Your wallet recovery phrase and access to the server that coordinated the initial wallet creation. You still need {{index.m}} keys to spend."
 msgstr "Ключевое словосочетание и доступ к серверу, координировавшему начальное создание кошелька. Вам всё ещё нужно {{index.m}} для совершения платежей."
-
